@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM alpine:3.16
+FROM i386/alpine:3.16
 
 RUN set -eux; \
 	apk add --no-cache \
